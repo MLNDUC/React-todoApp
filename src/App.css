@@ -1,0 +1,79 @@
+.container {
+  width: 60vw;
+  height: 90vh;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+
+.box {
+  width: 600px;
+  height: 600px;
+  padding: 25px;
+  background-color: antiquewhite;
+  border: 5px solid rgb(193, 209, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-heading {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 36px;
+}
+
+.input-todo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px
+}
+
+.input-todo input {
+  border: 2px solid rgb(184, 184, 253);
+  border-radius: 2px;
+  flex: 1;
+  outline: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.input-todo button {
+  border: 2px solid rgb(184, 184, 253);
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.todo-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.check-done {
+  color: rgb(1, 150, 28);
+  font-size: 24px;
+}
+
+.taskView {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-icon,
+delete-icon {
+  width: 24px;
+  height: 24px;
+}
